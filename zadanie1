@@ -1,1 +1,14 @@
+var TabYears = [1974, 1900, 1985, 2000];
+var Year = 0;
 
+
+
+
+
+for (i = 0; i < TabYears.length; i++) 
+{
+    var j = TabYears[i];
+    if (j%4==0 && j%100 !=0 || j %400==0) {return j};
+    break;
+}
+console.log(TabYears[i]);
