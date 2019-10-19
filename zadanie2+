@@ -1,0 +1,9 @@
+// 2. Calculate factorial of 7.
+
+var Silnia = 7;
+var Sum = 1;
+for (i = 1; i <= Silnia; i++) {
+  Sum = Sum*i;
+}
+
+console.log(Sum)
